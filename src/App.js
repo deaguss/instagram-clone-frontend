@@ -1,57 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
+import Login from './pages/Login';
+import Beranda from './pages/Beranda';
+import Search from './pages/Search';
+import Reels from './pages/Reels';
+import Messages from './pages/Messages';
+import Profile from './pages/Profile';
+import Komentar from './pages/Komentar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
-    </div>
+    <React.Fragment>
+        <Router>
+          <Routes>
+            <Route path='/' element={<Navigate to='/login'/>}/>
+            <Route path='/login' element={<Login />}/>
+            <Route path='/beranda'element={<Beranda />}/>
+            <Route path='/komentar/:id' element={<Komentar />}/>
+            <Route path='/explore'element={<Search />}/>
+            <Route path='/reels'element={<Reels />}/>
+            <Route path='/message'element={<Messages />}/>
+            <Route path='/profile'element={<Profile />}/>
+            <Route path='/explore/search'element={<p>tes</p>}/>
+            <Route path='*' element={<h1>404 not found</h1>}/>
+          </Routes>
+        </Router>
+    </React.Fragment>
   );
 }
 
