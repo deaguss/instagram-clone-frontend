@@ -74,15 +74,15 @@ Install my-project with npm
 ```
 
 ## Screen Shots
-# login page
+### login page
 ![Screenshot 2023-06-13 194949](https://github.com/deaguss/instagram-clone-frontend/assets/111763433/80df6e7f-b157-4389-911c-176db3871f19)
 
-# Home page    
+### Home page    
 ![Screenshot 2023-06-13 195017](https://github.com/deaguss/instagram-clone-frontend/assets/111763433/dee20886-e82a-4172-a97e-ffaa2ad44e67)
 
-# beranda and search
+### beranda and search
 ![Screenshot 2023-06-13 195033](https://github.com/deaguss/instagram-clone-frontend/assets/111763433/aaebff86-b307-4eb4-ae6d-1a6fe195407a)
 
-# profile users
+### profile users
 ![Screenshot 2023-06-13 195046](https://github.com/deaguss/instagram-clone-frontend/assets/111763433/c0191577-213f-4770-aad5-7fca1e5ddb43)
 
