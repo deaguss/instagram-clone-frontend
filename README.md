@@ -44,3 +44,32 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+# Instagram backend clone
+
+I'm just learning for my coding skills, so I took the initiative to make an Instagram clone and I don't intend to copy Instagram, I'm just improving my skills, the stack that I use for the backend is express js to make api, sequelize to the database model
+
+
+
+
+## Authors
+
+- [@deaguss](https://github.com/deaguss)
+
+
+## 
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm i my-project
+  cd my-project
+
+  npm start
+```
+    
